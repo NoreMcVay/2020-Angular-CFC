@@ -1,0 +1,20 @@
+<div role="document" class="modal-dialog">
+    <div class="modal-content">      
+      <div class="modal-header">
+        <h4 class="modal-title">{{title}}</h4>
+        <button type="button" class="btn btn-outline-dark close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ng-content></ng-content>
+            <p><strong>Country: </strong>{{ footballerData.country }} <img [src]="footballerData.flags" class="img-fluid flagSize">
+            <p><strong>Age: </strong>{{ footballerData.age }}</p>
+            <p><strong>Position: </strong>{{ footballerData.position }}</p>
+            <img [src]="footballerData.actionPic" class="img-fluid">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+      </div>
+    </div>
+</div>

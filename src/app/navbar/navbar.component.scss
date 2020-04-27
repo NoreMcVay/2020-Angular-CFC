@@ -1,0 +1,131 @@
+body {
+    background-color: #3E4649;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2 {
+    font-weight: bold;
+}
+
+h5 {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+h6 {
+    color: lightgray;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+button:focus { 
+    outline: none; 
+}
+
+i.fa-user {
+    font-size: xx-large;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.form-control {
+    padding-left: 2.375rem;
+}
+
+// CHANGING HAMURGER ICON COLOUR //
+.custom-toggler.navbar-toggler {
+    border-color: rgb(162, 162, 162);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(162, 162, 162)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+// CHANGING HAMURGER ICON COLOUR ENDS //
+
+
+// CHANGING INPUT FIELD COLOUR //
+input[type="text"], textarea {
+    background-color : #2d2d2d; 
+    border-color: #2d2d2d;
+    color: grey;
+}
+.btn-secondary { // search button color change
+    background-color: navy;
+    border-color: #2d2d2d;
+}
+i.fa-search {
+    color: #d5d5d5;
+}
+// CHANGING INPUT FIELD COLOUR ENDS//
+
+a:hover {
+    background-color: none;
+}
+
+li.nav-item {
+    font-size: 20px;
+    padding: 3px 0px 0px 3px;
+    margin-right: 8px;
+}
+
+.router-link-active {
+    background-color: rgb(108, 108, 108);
+}
+
+.usernameCircle {
+    border-radius: 50%;
+    height: 55px;
+    color: aliceblue;
+    border: 1px solid rgba(116, 91, 26, 0.563);
+    background-color: rgba(116, 91, 26, 0.563);
+    text-align: center;
+    font: 22px Arial, sans-serif;
+    margin-left: 8px;
+    padding: 23px;
+    padding-bottom: 45px;
+}
+
+.usernameCircleOffline {
+    border-radius: 50%;
+    height: 55px;
+    background-color: navy;
+    border: 1px solid #0e06a4;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+    margin-left: 8px;
+    padding: 23px;
+    padding-bottom: 45px;
+}
+
+a:link {
+    text-decoration: none;
+    background-color: #2d2d2d;
+    color: white;
+    text-decoration: none;
+  }
+
+.userNameColor {
+    color: whitesmoke;
+}
+
+a {
+    cursor: pointer;
+}
+
+.inputMargin {
+    margin-left: 5px;
+}
+

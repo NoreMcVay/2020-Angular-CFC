@@ -1,0 +1,54 @@
+<app-jumbotron></app-jumbotron>
+<div class="container containerPadding text-center">
+    <div class="row">
+        <div 
+            class="col-lg-3 col-md-6 col-sm-6 cardSpacing" 
+            *ngFor="let legend of filteredLegend">
+            <div *ngIf="!!currentUser">
+                <div class="card h-60 shadow-lg mb-5 bg-white rounded noPadding">
+                    <button 
+                        class="btn btn-lg btn btn-light" 
+                        (click)="open(legend)">
+                        <img [src]="legend.imagePath" class="img-fluid legendCard">
+                    </button>
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <h5>{{legend.fullName}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div *ngIf="!currentUser">
+                <div class="card h-60 shadow-lg mb-5 bg-white rounded noPadding">
+                        <button [disabled]="!currentUser">
+                            <strong>?</strong>
+                        </button>
+                    <div class="card-body">
+                        <div class="card-text text-center">
+                            <h6>please log in to view Chelsea legend.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div 
+          class="col-lg-3 col-md-4 col-sm-6 cardSpacing" 
+          *ngFor="let player of filteredPlayer">
+            <div class="card h-60 shadow-lg mb-5 bg-white rounded noPadding">
+                <button 
+                    class="btn btn-md btn btn-light" 
+                    (click)="open(player)">
+                    <img [src]="player.imagePath" class="img-fluid card-img-top">
+                </button>
+                <div class="card-body">
+                    <div class="card-text text-center">
+                        <h6>{{player.fullName}}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

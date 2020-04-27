@@ -1,0 +1,55 @@
+.jumbotron {
+    background-repeat: no-repeat;
+    background-color: rgb(4, 10, 45);
+    background-size: contain;
+    color: white;
+    text-align: center;
+    border-radius: 0%;
+    height: 110px;
+}
+
+.cfcBadge {
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: -50px;
+    margin-right: 25px;
+}
+
+.nikeSign {
+    height: 80px;
+    width: auto;
+    position: relative;
+    top: -50px;
+}
+
+.ytSign {
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: -50px;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .cfcBadge {
+        height: 90px;
+        width: auto;
+        position: relative;
+        top: -22px;
+    }
+    .nikeSign {
+        height: 50px;
+        width: auto;
+        position: relative;
+        top: -30px;
+        margin-right: 25px;
+    }
+    
+    .ytSign {
+        height: 60px;
+        width: auto;
+        position: relative;
+        top: -30px;
+    }
+}

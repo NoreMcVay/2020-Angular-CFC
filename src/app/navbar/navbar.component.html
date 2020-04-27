@@ -1,0 +1,43 @@
+<nav class="navbar navbar-expand-lg navbar-dark navbar-full" style="background-color: rgb(11, 18, 57)">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <div class="nav-link">
+                <form [formGroup]="playerForm">
+                    <div 
+                        class="input-group"
+                        *ngIf="!currentUser">
+                        <input 
+                            formControlName="search" 
+                            placeholder="Search Player" 
+                            type="text"
+                            class="form-control">
+                        <div class="input-group-append">
+                            <button 
+                                class="btn btn-secondary" 
+                                type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </li>
+    </ul>
+    <div *ngIf="!!currentUser">
+        <div class="usernameCircle ml-auto">
+            <a
+                (click)="openLogoutModal(currentUser)" class="userNameColor">
+                <h5>{{ currentUser.firstName.substr(0,1) | uppercase }}{{ currentUser.lastName.substr(0,1) | uppercase }}</h5>
+            </a>
+        </div>
+    </div>
+    <div *ngIf="!currentUser">
+        <div class="usernameCircleOffline ml-auto">
+            <a
+                (click)="openLoginModal()" class="userNameColor">
+                <i class="fa fa-user icon-large"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+    

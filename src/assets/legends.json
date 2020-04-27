@@ -1,0 +1,39 @@
+[
+    {
+        "fullName": "EDEN HAZARD",
+        "country": "Belgium",
+        "age": 29,
+        "position": "Forward",
+        "imagePath":"assets/images/legends/eden.jpg",
+        "flags": "assets/images/country-flags/bel.jpg",
+        "actionPic": "assets/images/legends/eh.jpg"
+
+    },
+    {
+        "fullName": "DIDIER DROGBA",
+        "country": "Ivory Coast",
+        "age": 41,
+        "position": "Striker",
+        "imagePath":"assets/images/legends/drogba.jpg",
+        "flags": "assets/images/country-flags/ivo.jpg",
+        "actionPic": "assets/images/legends/dd.jpg"
+    },
+    {
+        "fullName": "DIEGO COSTA",
+        "country": "Spain",
+        "age": 31,
+        "position": "Striker",
+        "imagePath":"assets/images/legends/diego.jpg",
+        "flags": "assets/images/country-flags/esp.jpg",
+        "actionPic": "assets/images/legends/dc.jpg"
+    },
+    {
+        "fullName": "CESC FABREGAS",
+        "country": "Spain",
+        "age": 32,
+        "position": "Midfielder",
+        "imagePath":"assets/images/legends/cesc2.jpg",
+        "flags": "assets/images/country-flags/esp.jpg",
+        "actionPic": "assets/images/legends/cf.jpg"
+    }
+]

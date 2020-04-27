@@ -1,0 +1,194 @@
+[
+    {
+        "fullName": "FRANK LAMPARD",
+        "country": "England",
+        "age": 41,
+        "position": "Manager",
+        "imagePath":"assets/images/players/frank.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/frank.jpg"
+
+    },
+    {
+        "fullName": "WILLIAN",
+        "country": "Brazil",
+        "age": 31,
+        "position": "Forward",
+        "imagePath":"assets/images/players/willian.jpg",
+        "flags": "assets/images/country-flags/bra.jpg",
+        "actionPic": "assets/images/player-modal-pics/will.jpg"
+    },
+    {
+        "fullName": "TAMMY ABRAHAM",
+        "country": "England",
+        "age": 22,
+        "position": "Striker",
+        "imagePath":"assets/images/players/tammy.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/tammy.jpg"
+    },
+    {
+        "fullName": "MASON MOUNT",
+        "country": "England",
+        "age": 21,
+        "position": "Midfielder",
+        "imagePath":"assets/images/players/mason.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/mount.jpg"
+    },
+    {
+        "fullName": "JORGINHO",
+        "country": "Italy",
+        "age": 28,
+        "position": "Midfielder",
+        "imagePath":"assets/images/players/jorginho.jpg",
+        "flags": "assets/images/country-flags/ita.jpg",
+        "actionPic": "assets/images/player-modal-pics/jorginho.jpg"
+    },
+    
+    {
+        "fullName": "RUBEN LOFTUS-CHEEK",
+        "country": "England",
+        "age": 24,
+        "position": "Midfielder",
+        "imagePath":"assets/images/players/rlc.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/rlc.jpg"
+    },
+    {
+        "fullName": "CALLUM HUDSON-ODOI",
+        "country": "England",
+        "age": 19,
+        "position": "Forward",
+        "imagePath":"assets/images/players/cho.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/cho.jpg"
+    },
+    {
+        "fullName": "CESAR AZPILICUETA",
+        "country": "Spain",
+        "age": 30,
+        "position": "Defender",
+        "imagePath":"assets/images/players/cesar.jpg",
+        "flags": "assets/images/country-flags/esp.jpg",
+        "actionPic": "assets/images/player-modal-pics/dave.jpg"
+    },
+    {
+        "fullName": "KEPA ARRIZABALAGA",
+        "country": "Spain",
+        "age": 25,
+        "position": "Goalkeeper",
+        "imagePath":"assets/images/players/kepa.jpg",
+        "flags": "assets/images/country-flags/esp.jpg",
+        "actionPic": "assets/images/player-modal-pics/kepa.jpg"
+    },
+    {
+        "fullName": "NGOLO KANTE",
+        "country": "France",
+        "age": 28,
+        "position": "Midfielder",
+        "imagePath":"assets/images/players/kante.jpg",
+        "flags": "assets/images/country-flags/fra.jpg",
+        "actionPic": "assets/images/player-modal-pics/kante.jpg"
+    },
+    {
+        "fullName": "REECE JAMES",
+        "country": "England",
+        "age": 20,
+        "position": "Defender",
+        "imagePath":"assets/images/players/reece.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/reece.jpg"
+    },
+    {
+        "fullName": "ANTONIO RUDIGER",
+        "country": "Germany",
+        "age": 26,
+        "position": "Defender",
+        "imagePath":"assets/images/players/antonio.jpg",
+        "flags": "assets/images/country-flags/ger.jpg",
+        "actionPic": "assets/images/player-modal-pics/toni.jpg"
+    },
+    {
+        "fullName": "CHRISTIAN PULISIC",
+        "country": "USA",
+        "age": 21,
+        "position": "Forward",
+        "imagePath":"assets/images/players/pulisic.jpg",
+        "flags": "assets/images/country-flags/usa.jpg",
+        "actionPic": "assets/images/player-modal-pics/pulisic.jpg"
+    },
+    
+    {
+        "fullName": "MATEO KOVACIC",
+        "country": "Croatia",
+        "age": 25,
+        "position": "Midfielder",
+        "imagePath":"assets/images/players/kovacic.jpg",
+        "flags": "assets/images/country-flags/cro.jpg",
+        "actionPic": "assets/images/player-modal-pics/kovacic.jpg"
+    },
+    {
+        "fullName": "EMERSON PALMIERI",
+        "country": "Italy",
+        "age": 25,
+        "position": "Defender",
+        "imagePath":"assets/images/players/emerson.jpg",
+        "flags": "assets/images/country-flags/ita.jpg",
+        "actionPic": "assets/images/player-modal-pics/emerson.jpg"
+    },
+    {
+        "fullName": "ANDREAS CHRISTENSEN",
+        "country": "Denmark",
+        "age": 23,
+        "position": "Defender",
+        "imagePath":"assets/images/players/andreas.jpg",
+        "flags": "assets/images/country-flags/den.jpg",
+        "actionPic": "assets/images/player-modal-pics/ac.jpg"
+    },
+    {
+        "fullName": "FIKAYO TAMORI",
+        "country": "England",
+        "age": 22,
+        "position": "Defender",
+        "imagePath":"assets/images/players/tamori.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/tamori.jpg"
+    },
+    {
+        "fullName": "ROSS BARKLEY",
+        "country": "England",
+        "age": 26,
+        "position": "Midfielder",
+        "imagePath":"assets/images/players/ross.jpg",
+        "flags": "assets/images/country-flags/eng.jpg",
+        "actionPic": "assets/images/player-modal-pics/ross.jpg"
+    },
+    {
+        "fullName": "MARCOS ALONSO",
+        "country": "Spain",
+        "age": 29,
+        "position": "Defender",
+        "imagePath":"assets/images/players/alonso.jpg",
+        "flags": "assets/images/country-flags/esp.jpg",
+        "actionPic": "assets/images/player-modal-pics/alonso.jpg"
+    },
+    {
+        "fullName": "KURT ZOUMA",
+        "country": "France",
+        "age": 25,
+        "position": "Defender",
+        "imagePath":"assets/images/players/kurt.jpg",
+        "flags": "assets/images/country-flags/fra.jpg",
+        "actionPic": "assets/images/player-modal-pics/zouma.jpg"
+    },
+    {
+        "fullName": "WILLY CABALLERO",
+        "country": "Argentina",
+        "age": 38,
+        "position": "Goalkeeper",
+        "imagePath":"assets/images/players/willy.jpg",
+        "flags": "assets/images/country-flags/arg.jpg",
+        "actionPic": "assets/images/player-modal-pics/caballero.jpg"
+    }
+]
