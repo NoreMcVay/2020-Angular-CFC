@@ -9,7 +9,6 @@ import { map } from 'rxjs/operators';
   styleUrls: ['./rxjs-examples.component.scss']
 })
 export class RxjsExamplesComponent implements OnInit {
-  ChelseaArray = [];
   SpainArray = [];
   EngArray = [];
 
